@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.126.128:3306/test?characterEncoding=utf8&useSSL=true&serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL
+      username: root
+      password: "094551"
+
+    type: com.alibaba.druid.pool.DruidDataSource
+#debug: true
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://192.168.126.128:3306/test?characterEncoding=utf8&useSSL=true&serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL
+#    data-username: root
+#    data-password: "094551"
+#    hikari:
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#          jdbc-url: jdbc:mysql://192.168.126.128:3306/test?characterEncoding=utf8&useSSL=true&serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL
+#          username: root
+#          password: "094551"
+#    type: com.zaxxer.hikari.HikariDataSource
+
