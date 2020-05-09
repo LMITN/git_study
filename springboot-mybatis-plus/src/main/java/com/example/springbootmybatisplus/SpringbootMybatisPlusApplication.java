@@ -8,7 +8,7 @@ public class SpringbootMybatisPlusApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringbootMybatisPlusApplication.class, args);
-        system.out.println("=============from github");
+        System.out.println("=============from github");
     }
 
 }
